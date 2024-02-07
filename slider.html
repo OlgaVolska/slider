@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@400;500;600;700&family=Inter:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="categories">
+      <div class="container">
+        <header class="block__header block block--secondary">
+          <h2 class="block__headings categories__headings">Categories</h2>
+          <div class="categories__chevron grid">
+            <span class="btn-prev chevron-back icon-container">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#chevron_forward"></use>
+              </svg>
+            </span>
+            <span class="btn-next chevron_forward icon-container">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#chevron_forward"></use>
+              </svg>
+            </span>
+          </div>
+        </header>
+
+        <div class="slider categories__content">
+          <div class="slider__tape">
+            <div class="slider__img">
+              <div class="grid categories__content-lifestyle">
+                <div class="box-img">
+                  <a href="#">
+                    <img
+                      class="lifestyle"
+                      src="images/lifestyle@2x.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="box-title">
+                  <h3 class="text">Lifestyle Shoes</h3>
+                  <a href="#">
+                    <span class="icon-container">
+                      <svg class="icon icon--primary">
+                        <use
+                          xlink:href="images/sprite.svg#arrow_trend_right_up"
+                        ></use>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="grid categories__content-basketball">
+                <div class="box-img">
+                  <a href="#">
+                    <img
+                      class="basketball"
+                      src="images/basketball@2x.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="box-title">
+                  <h3 class="text">Basketball Shoes</h3>
+                  <a href="#">
+                    <span class="icon-container">
+                      <svg class="icon icon--primary">
+                        <use
+                          xlink:href="images/sprite.svg#arrow_trend_right_up"
+                        ></use>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__img">
+              <div class="grid categories__content-runners">
+                <div class="box-img">
+                  <a class="next-photo" href="#"> NEXT PHOTO </a>
+                </div>
+                <div class="box-title">
+                  <h3 class="text">Runners Shoes</h3>
+                  <a href="#">
+                    <span class="icon-container">
+                      <svg class="icon icon--primary">
+                        <use
+                          xlink:href="images/sprite.svg#arrow_trend_right_up"
+                        ></use>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="grid categories__content-outdoor">
+                <div class="box-img">
+                  <a class="next-photo" href="#"> NEXT PHOTO </a>
+                </div>
+                <div class="box-title">
+                  <h3 class="text">Outdoor Shoes</h3>
+                  <a href="#">
+                    <span class="icon-container">
+                      <svg class="icon icon--primary">
+                        <use
+                          xlink:href="images/sprite.svg#arrow_trend_right_up"
+                        ></use>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__img">
+              <div class="grid categories__content-runners">
+                <div class="box-img">
+                  <a class="next-photo" href="#"> NEXT PHOTO </a>
+                </div>
+                <div class="box-title">
+                  <h3 class="text">Golf Shoes</h3>
+                  <a href="#">
+                    <span class="icon-container">
+                      <svg class="icon icon--primary">
+                        <use
+                          xlink:href="images/sprite.svg#arrow_trend_right_up"
+                        ></use>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="grid categories__content-outdoor">
+                <div class="box-img">
+                  <a class="next-photo" href="#"> NEXT PHOTO </a>
+                </div>
+                <div class="box-title">
+                  <h3 class="text">Hiking Shoes</h3>
+                  <a href="#">
+                    <span class="icon-container">
+                      <svg class="icon icon--primary">
+                        <use
+                          xlink:href="images/sprite.svg#arrow_trend_right_up"
+                        ></use>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/js/slider.js"></script>
+  </body>
+</html>
