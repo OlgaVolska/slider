@@ -1,5 +1,6 @@
 // СЛАЙДЕР ------------------------------------------------
 
+window.addEvenListener('resize', moveNextSlide);
 // grid-контейнер для слайдов, лента слайдера
 const sliderTape = document.querySelector(".slider__tape");
 
